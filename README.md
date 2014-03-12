@@ -3,6 +3,8 @@ MinecraftUpdater
 
 MinecraftUpdater is a python 2.7 script that automates updates to servers running Mojang's Minecraft.
 
+Run the script with "python minecraftupdater.py". I would advise that you shut down your server before attempting to run this script.
+
 My system is Ubuntu linux, your mileage on other distributions may vary. Minecraft is commonly run on Windows servers. This script uses command line utilities not available on Windows, but the general approach should remain valid on any system.
 
 EXPLANATION OF SCRIPT FUNCTION:
