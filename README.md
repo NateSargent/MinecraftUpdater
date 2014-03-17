@@ -26,7 +26,7 @@ that lists versions of the software. This file contains a "latest" field with tw
 Note that once you have the .jar in hand, its name will contain its version number, such as "minecraft_server.1.7.5.jar"
 It is my understanding that you should rename the file to: "minecraft_server.jar" for it to be usable.
 
-The above steps are likely to be the same for ever user. What follows next depends on the specifics of your server and your filesystem. Should you open up my code, you'll see a hardcoded filepath:
+The above steps are likely to be the same for every user. What follows next depends on the specifics of your server and your filesystem. Should you open up my code, you'll see a hardcoded filepath:
 
 /home/hostaccount/minecraft/minecraft_server.jar
 
