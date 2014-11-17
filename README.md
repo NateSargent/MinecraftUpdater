@@ -28,9 +28,9 @@ It is my understanding that you should rename the file to: "minecraft_server.jar
 
 The above steps are likely to be the same for every user. What follows next depends on the specifics of your server and your filesystem. Should you open up my code, you'll see a hardcoded filepath:
 
-/home/hostaccount/minecraft/minecraft_server.jar
+/home/accountnamegoeshere/minecraft/minecraft_server.jar
 
-obviously this filepath only exists on my server; if you want to use my code, replace this bit with a filepath that actually exists on your machine.
+If you want to use my code, replace this bit with a filepath that actually exists on your machine.
 
 This concludes the explanation of script function. A few minor details have been omitted, such as the removal of old files. The script itself is relatively readable and, in my opinion, is one of my better-commented pieces. Feel free to refer to the script itself for more information.
 
