@@ -36,7 +36,7 @@ subprocess.call(["wget",jarurl])
 #note that I not only move minecraft_server.version.number.jar, but I rename it.
 print "moving and renaming .jar file"
 minecraft_server_downloaded_jar = "minecraft_server." + releaseid + ".jar"
-subprocess.call(["cp", minecraft_server_downloaded_jar, "/home/hostaccount/minecraft/minecraft_server.jar"])
+subprocess.call(["cp", minecraft_server_downloaded_jar, "/home/accountnamegoeshere/minecraft/minecraft_server.jar"])
 
 #remove old .jar from working directory
 print "removing old .jar file"
