@@ -1,6 +1,6 @@
 #minecraftupdater.py
 #2014 Nate Sargent
-#python 2.7, targetting linux. My system is Ubuntu, your mileage on other systems may vary.
+#python 2.7, targeting linux. My system is Ubuntu, your mileage on other systems may vary.
 import json
 from pprint import pprint
 import subprocess
@@ -10,12 +10,11 @@ print "Welcome to minecraftupdater.py!"
 print "downloading versions.json"
 subprocess.call(["wget", "https://s3.amazonaws.com/Minecraft.Download/versions/versions.json"])
 
-#open and load the JSON file into memory
-print "loading versions.json into memory"
+#open and load the JSON file
+print "loading versions.json"
 json_data = open('versions.json')
 print "decoding JSON"
 data = json.load(json_data)
-#pprint(data)
 json_data.close()
 #done with versions.json, delete it so it doesn't collide with the next incoming versions.json
 print "removing versions.json"
